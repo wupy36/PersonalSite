@@ -127,7 +127,7 @@ const Navbar = () => {
                         </Link>
                     </ul>
                     {/* RESUME BUTTON */}
-                    <a href="/assets/DevonCV.pdf" target="_blank">
+                    <a href="/assets/AndrewCV.pdf" target="_blank">
                         <motion.button
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
@@ -268,7 +268,7 @@ const Navbar = () => {
                                 </ul>
                                 {/* RESUME BUTTON */}
                                 <a 
-                                  href="/assets/DevonCV.pdf" 
+                                  href="/assets/AndrewCV.pdf" 
                                   target="_blank"
                                   className="pt-8"
                                 >
@@ -293,7 +293,7 @@ const Navbar = () => {
                                     ease: "easeIn" ,
                                   }}
                                   
-                                  href="https://github.com/DevonGifford" 
+                                  href="https://github.com/wupy36" 
                                   target='_blank'
                                   >
                                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
@@ -310,7 +310,7 @@ const Navbar = () => {
                                     delay: 1.2, 
                                     ease: "easeIn" ,
                                   }}
-                                  href="https://www.linkedin.com/in/dbgifford/" target='_blank'>
+                                  href="https://www.linkedin.com/in/andrewduit/" target='_blank'>
                                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                     <BsLinkedin />
                                     </span>
@@ -325,7 +325,7 @@ const Navbar = () => {
                                     delay: 1.4, 
                                     ease: "easeIn" ,
                                   }}
-                                  href="https://twitter.com/devon_gifford" target='_blank'>
+                                  href="https://twitter.com/duitandrew" target='_blank'>
                                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                     <TiSocialTwitter />
                                     </span>
@@ -340,7 +340,7 @@ const Navbar = () => {
                                     delay: 1.6, 
                                     ease: "easeIn" ,
                                   }}
-                                  href="https://www.instagram.com/princedevon_za/" target='_blank'>
+                                  href="https://www.instagram.com/andrewduit" target='_blank'>
                                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                                     <TiSocialInstagram />
                                     </span>
@@ -350,7 +350,7 @@ const Navbar = () => {
 
                                 {/* Email for Mobile View */}
                                 <motion.a 
-                                  href="mailto:devongifford@outlook.com"
+                                  href="mailto:andrewduit@gmail.com"
                                   initial={{ x: 20, opacity: 0 }}
                                   animate={{ x: 0, opacity: 1 }}
                                   transition={{ 

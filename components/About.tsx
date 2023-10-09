@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import SectionTitle from './SectionTitle';
-import { profileImgCircle , CSS, HTML, ReactL, Next, Redux, NodeJS, Express, PostgreSQL, MongoDB, GraphQL, JavaScriptL, TypeScript, Python} from "@/public/assets";
+import { profileImgCircle , CSS, HTML, ReactL, Next, UnrealEngine, NodeJS, TypeScript, Python, CPP, Java} from "@/public/assets";
 
 const About = () => {
   return (
@@ -49,10 +49,10 @@ const About = () => {
                     </div>
 
                     <p>
-                        Hello! I&apos;m Devon Gifford, a <span className='text-textGreen'>full stack developer</span> driven by a passion for continuous learning and problem-solving. With a solid background in front-end and back-end development, I specialize in crafting user-friendly and responsive web applications using  <span className='text-textGreen'>React</span> and its ecosystem.
+                        Hello! I&apos;m Andrew Duit, a <span className='text-textGreen'>full stack developer</span> driven by a passion for continuous learning and problem-solving. With a solid background in front-end and back-end development, I specialize in crafting experiences and realities using  <span className='text-textGreen'>Unreal Engine</span> and its ecosystem.
               
                         <br /> <br />
-                        My journey into web development began during my time as a freelancer, creating websites for marketing clients in South Africa. Since then, I&apos;ve had the opportunity to work in QA for a major <span className='text-textGreen'>FAANG</span> company in Europe, where I discovered my true passion for problem-solving.
+                        My journey into game development and design began during my time as a consultant, creating mods for communities and events. Since then, I&apos;ve had the opportunity to work as a Game Designer and Programmer for a indie studio using <span className='text-textGreen'>Unreal Engine 5</span>.
                         <br/><br/>
 
                         Combining my technical skills, creativity, and a keen eye for detail, I strive to deliver <span className='text-textGreen'>innovative solutions</span> that meet client needs and exceed expectations. I am excited to contribute my expertise to collaborative projects and continue expanding my knowledge in this <span className='text-textGreen'>ever-evolving</span> field.
@@ -101,14 +101,6 @@ const About = () => {
                 </p>
                 
                 <ul className='flex flex-row flex-wrap gap-4 ml-3 mt-1 justify-center'>
-                    {/* JavaScriptLogo */}
-                    <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
-                        <Image 
-                            className='rounded-full w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
-                            src={JavaScriptL} alt="JavaScript" 
-                            title='JavaScript'
-                        />
-                    </li>
                     {/* TypeScript Logo */}
                     <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
                         <Image 
@@ -160,14 +152,6 @@ const About = () => {
                             title='NextJS' 
                         />
                     </li>
-                    {/* Redux */}
-                    <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
-                        <Image 
-                            className='w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
-                            src={Redux} alt="Redux"
-                            title='Redux' 
-                        />
-                    </li>
                     {/* NodeJS */}
                     <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
                         <Image 
@@ -176,43 +160,33 @@ const About = () => {
                             title='NodeJS' 
                         />
                     </li>
-                    {/* Express */}
-                    <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
-                        <Image 
-                            className='rounded-full w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
-                            src={Express} alt="ExpressJS"
-                            title='ExpressJS' 
-                        />
-                    </li>
-
                 </ul>
                 <ul className='flex flex-row flex-wrap gap-4 ml-3 mt-5 justify-center'>
-                    {/* PostgreSQL */}
+                    {/* Unreal Engine */}
                     <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
                         <Image 
                             className='w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
-                            src={PostgreSQL} alt="PostgreSQL"
-                            title='PostgreSQL' 
+                            src={CPP} alt="CPP"
+                            title='CPP' 
                         />
                     </li>
-                    {/* MongoDB */}
                     <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
                         <Image 
-                            className='rounded-full w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
-                            src={MongoDB} 
-                            alt="MongoDB"
-                            title='MongoDB'
-                            
-                        />
-                    </li>
-                    {/* GraphQL */}
-                    <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
-                        <Image 
-                            className=' w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
-                            src={GraphQL} alt="GraphQL"
-                            title='GraphQL' 
+                            className='w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
+                            src={Java} alt="Java"
+                            title='Java' 
                         />
                     </li>                    
+                </ul>
+                <ul className='flex flex-row flex-wrap gap-4 ml-3 mt-5 justify-center'>
+                    {/* Unreal Engine */}
+                    <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
+                        <Image 
+                            className='w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
+                            src={UnrealEngine} alt="UnrealEngine"
+                            title='UnrealEngine' 
+                        />
+                    </li>                  
                 </ul>
 
             </div>

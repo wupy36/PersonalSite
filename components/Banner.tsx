@@ -15,9 +15,9 @@ const Banner = () => {
       'Python Enthusiast',
       'Next.js Developer',
       'Web Developer',
-      'ex-FAANG',
+      'Unreal Game Designer',
       'Future Senior Dev',
-      'Aspiring Principal Engineer',
+      'Aspiring VR Engineer',
     ],
     autoStart: true,
     loop: true,
@@ -44,7 +44,7 @@ const Banner = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 2.2}}
         className='text-3xl md:text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col'
-      >Devon Gifford.{" "}
+      >Andrew Duit.{" "}
         <span
           className='text-lg md:text-2xl lg:text-3xl text-textDark mt-2 lgl:mt-4'
         >
@@ -61,14 +61,14 @@ const Banner = () => {
         className='text-sm sml:text-base text-textDark font-medium'
       >
           {" "}
-          Born in South Africa, holding British citizenship, and currently based in Madrid, Spain, my expertise and passion lies in full-stack web development. <br />
-
-          Leveraging my background in Marketing and Project Management, complemented by experience in Software Testing at a major <em>FAANG</em> company, my approach brings a unique perspective to deliver high-quality web solutions.
+          I&apos;m Andrew Duit, a coffee-loving video game developer with <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>1</span> official title released and another project in progress. I&apos;ve contributed to <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>20</span> video game projects and enjoy playing the guitar in my free time. <br />
+          <br /><br />
+          Helping others is a core value, and I&apos;m passionate about learning technology and programming. My journey is one of continuous growth, supported by my loving wife, as I navigate the world of game development and technology.
           <br /><br />
           <em>Fully committed to the philosophy of life-long learning.</em> {" "} <br /><br />
           
           
-          <a href="https://www.linkedin.com/in/dbgifford/" target='_blank'>
+          <a href="https://www.linkedin.com/in/andrewduit/" target='_blank'>
               
               <span
               className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'
@@ -82,7 +82,7 @@ const Banner = () => {
       </motion.p>
         
       {/* Button */}
-      <a href="https://github.com/DevonGifford?tab=repositories" target='_blank'>
+      <a href="https://github.com/wupy36?tab=repositories" target='_blank'>
         <motion.button
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
