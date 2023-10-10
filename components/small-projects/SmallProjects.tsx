@@ -15,57 +15,46 @@ const SmallProjects = () => {
       <div className='flex flex-wrap items-center justify-center gap-6 mt-10 lgl:px-10'>
 
         <ProjectCard 
-          title="Thymia Technical Assessment"
-          description="Gamified version of the 2-back task, which measures working memory, with Cypress end-to-end testing."
-          gitLink="https://github.com/DevonGifford/nGame--TechnicalAssignment"
-          liveLink="https://n-game-technical-assignment.vercel.app/"
-          listItems={["NextJS","TypeScript", "Jest", "Cypress"]} 
+          title="Steel Division"
+          description="Special Forces mod for Squad."
+          gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2432926361"
+          liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2432926361"
+          listItems={["Unreal Engine 4.27", "Blueprint"]} 
         />
 
         <ProjectCard 
-          title="FlipDish Technical Assessment"
-          description="Frontend Technical Assessment: Simple web app to handle API fetch and present JSON data as a restaurant menu"
-          gitLink="https://github.com/DevonGifford/Menu--TechnicalAssignment"
-          liveLink="https://menu-technical-assignment.vercel.app/"
-          listItems={["API","Vite","TypeScript","Tailwind","Vitest"]} 
+          title="Squad Combat Evolved"
+          description="Halo mod for Squad"
+          gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2898567190"
+          liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2898567190"
+          listItems={["Unreal Engine 4.27", "Blueprint"]} 
+        />
+
+        <ProjectCard 
+          title="The Cage"
+          description="Competitive mod for Squad"
+          gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2799485908"
+          liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2799485908"
+          listItems={["Unreal Engine 4.27", "Blueprint"]} 
         />
         
         <ProjectCard 
-          title="InCard Technical Assessment"
-          description="Frontend Technical Assessment: React/NextJS app that handles authentication with Server Side & Client Side Rendering"
-          gitLink="https://github.com/DevonGifford/InCard---TechnicalAssignment"
-          liveLink="https://incard-technical-assaignment-devon-gifford.vercel.app/"
-          listItems={["SSR","NextJS","TypeScript","Auth"]} 
+          title="Paris Métro Line 14"
+          description="Operation Metro mod map for Squad "
+          gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2804581293"
+          liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2804581293"
+          listItems={["Unreal Engine 4.27", "Mapping"]} 
         />
 
         <ProjectCard 
-          title="ClearScore Technical Assessment"
-          description="An idea board that allows a user to create new ideas, edit existing ideas or delete them. This app uses local and session storage combined"
-          gitLink="https://github.com/DevonGifford/ClearScore--TechnicalAssignment"
-          liveLink="https://idea-board-murex.vercel.app/"
-          listItems={["Vite","TypeScript","Vitest","LocalStorage"]} 
+          title="Squad Untold"
+          description="Finland and Isralie Defense Force mod for Squad"
+          gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2887375418"
+          liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2887375418"
+          listItems={["Unreal Engine 4.27", "Blueprint"]} 
         />
 
-
-        {/* PROJECT 1  */}
-        <ProjectCard 
-          title="Python Converters"
-          description="Python Converters: JPEG to PNG, JSON to CSV, XML to JSON, and more! Simplifying data transformation and file handling"
-          gitLink="https://github.com/DevonGifford/my_Python/tree/main/Mini-Projects"
-          liveLink="https://github.com/DevonGifford/my_Python/tree/main/Mini-Projects"
-          listItems={["Python","JSON","XML","JPEG","PDF"]} 
-        />
-
-
-        {/* PROJECT 2  */}
-        <ProjectCard 
-          title="Classic Pong"
-          description="Classic Pong: Relive retro gaming with this browser-based implementation. Engaging gameplay, responsive design, and realistic ball physics"
-          gitLink="https://github.com/DevonGifford/Single-Player-Pong-Game"
-          liveLink="https://devon-pong-game.netlify.app/"
-          listItems={["JavaScript","HTML","CSS", "Netlify"]} 
-        />
-
+        
 
 
         
@@ -80,12 +69,12 @@ const SmallProjects = () => {
               transition={{ duration: 0.9, delay: 0.1}}
             >
             <ProjectCard 
-              title="Web Scrapers"
-              description="Built movie info & hacker news scrapers with Beautiful Soup library. Extracted valuable data efficiently"
-              gitLink="https://github.com/DevonGifford/my_Python/tree/main/Mini-Projects"
-              liveLink="https://github.com/DevonGifford/my_Python/tree/main/Mini-Projects"
-              listItems={["Python","BeautifulSoup4","Requests"]} 
-            />
+              title="Project Squad"
+              description="Competitive mod for Squad"
+              gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2964661588"
+              liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2964661588"
+              listItems={["Unreal Engine 4.27", "Blueprint"]} 
+              />
             </motion.div>
     
     
@@ -96,11 +85,11 @@ const SmallProjects = () => {
               transition={{ duration: 0.9, delay: 0.2}}
             >
             <ProjectCard 
-              title="Twitter Quote Generator"
-              description="Utilized API for fetching and tweeting inspiring quotes. Upgraded from 2D array to dynamic API integration."
-              gitLink="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects"
-              liveLink="https://devon-quote-generator.netlify.app/"
-              listItems={["JavaScript","API's","HTML","CSS"]} 
+              title="Squad IDF Modular"
+              description="Isralie Defense Force faction mod for Squad"
+              gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2965087392"
+              liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2965087392"
+              listItems={["Unreal Engine 4.27", "Blueprint"]} 
             />
             </motion.div>
     
@@ -112,11 +101,11 @@ const SmallProjects = () => {
               transition={{ duration: 0.9, delay: 0.3}}
             >
             <ProjectCard 
-              title="Animated NavBar"
-              description="Interactive & responsive website with UI design focus. Utilized CSS @keyframes for animations and maintained code efficiency."
-              gitLink="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects"
-              liveLink="https://devon-animated-navigation-bar.netlify.app/"
-              listItems={["JavaScript","HTML","CSS", "keyframes"]} 
+              title=""
+              description=" mod for Squad"
+              gitLink=""
+              liveLink=""
+              listItems={["Unreal Engine 4.27", "Blueprint"]} 
             />
             </motion.div>
     
@@ -128,11 +117,11 @@ const SmallProjects = () => {
               transition={{ duration: 0.9, delay: 0.4}}
             >
             <ProjectCard 
-              title="Whatsapp chatbot"
-              description="Chatbot enthusiast building various bots (general, WhatsApp, Telegram) using Python with pywhatkit, wechaty, and typing libraries"
-              gitLink="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects"
-              liveLink="https://github.com/DevonGifford/my_Python/tree/main/Mini-Projects"
-              listItems={["Python","pywhatkit","wechaty", "typing"]} 
+              title=""
+              description=" mod for Squad"
+              gitLink=""
+              liveLink=""
+              listItems={["Unreal Engine 4.27", "Blueprint"]} 
             />
             </motion.div>
             
@@ -144,11 +133,11 @@ const SmallProjects = () => {
               transition={{ duration: 0.9, delay: 0.5}}
             >
               <ProjectCard 
-                title="Custom Countdwon"
-                description="countdown app with localStorage to remember countdowns and animated background using .mp4 format. Fun and functional!"
-                gitLink="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects"
-                liveLink="https://devon-countdown-app.netlify.app/"
-                listItems={["LocalStorage","JavaScript","Netlify"]} 
+                title=""
+                description=" mod for Squad"
+                gitLink=""
+                liveLink=""
+                listItems={["Unreal Engine 4.27", "Blueprint"]} 
               />
             </motion.div>
               
@@ -159,11 +148,11 @@ const SmallProjects = () => {
               transition={{ duration: 0.9, delay: 0.6}}
             >
               <ProjectCard 
-                title="Video Player"
-                description="Created a JavaScript video player with essential controls: play, pause, volume, mute, playback speed, and fullscreen. Excited for future possibilities"
-                gitLink="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects"
-                liveLink="https://devon-javascript-videoplayer.netlify.app/"
-                listItems={["PlayBack Controls","JavaScript","Netlify"]} 
+                title=""
+                description=" mod for Squad"
+                gitLink=""
+                liveLink=""
+                listItems={["Unreal Engine 4.27", "Blueprint"]} 
               />
             </motion.div>
               
@@ -175,11 +164,11 @@ const SmallProjects = () => {
               transition={{ duration: 0.9, delay: 0.7}}
             >
               <ProjectCard 
-                title="Always-On-Top App"
-                description="Create floating, resizable windows for any screen or app, staying on top. Ideal for coding with YouTube tutorials. Easy and efficient solution"
-                gitLink="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects"
-                liveLink="https://devon-picture-in-picture-app.netlify.app/"
-                listItems={["JavaScript","HTML","CSS","Async"]} 
+                title=""
+                description=" mod for Squad"
+                gitLink=""
+                liveLink=""
+                listItems={["Unreal Engine 4.27", "Blueprint"]} 
               />
             </motion.div>
               
@@ -190,11 +179,11 @@ const SmallProjects = () => {
               transition={{ duration: 0.9, delay: 0.8}}
             >
               <ProjectCard 
-                title="Calculator"
-                description="A personal victory over past challenges. Simple yet powerful, offering potential for future enhancements and personalized themes"
-                gitLink="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects"
-                liveLink="https://devon-javascript-calculator.netlify.app/"
-                listItems={["JavaScript","HTML","CSS"]} 
+                title=""
+                description=" mod for Squad"
+                gitLink=""
+                liveLink=""
+                listItems={["Unreal Engine 4.27", "Blueprint"]} 
               />
             </motion.div>
                           

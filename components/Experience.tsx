@@ -4,21 +4,18 @@ import TeamLead from './works/TeamLead';
 import QA from './works/QA';
 import Internship from './works/Internship';
 import StartUp from './works/StartUp';
-import Freelance from './works/Freelance';
 
 const Experience = () => {
     const [workTeamLead, setWorkTeamLead] = useState(true);
     const [workQA, setWorkQA] = useState(false);
     const [workInternship, setWorkInternship] = useState(false);
     const [workStartUp, setWorkStartUp] = useState(false);
-    const [workFreelance, setWorkFreelance] = useState(false);
 
     const handleTeamLead = () => {
         setWorkTeamLead(true);
         setWorkQA(false);
         setWorkInternship(false);
         setWorkStartUp(false);
-        setWorkFreelance(false);
     };
 
     const handleQA = () => {
@@ -26,7 +23,6 @@ const Experience = () => {
         setWorkQA(true);
         setWorkInternship(false);
         setWorkStartUp(false);
-        setWorkFreelance(false);
     };
 
     const handleInternship = () => {
@@ -34,7 +30,6 @@ const Experience = () => {
         setWorkQA(false);
         setWorkInternship(true);
         setWorkStartUp(false);
-        setWorkFreelance(false);
     };
 
     const handleStartUp = () => {
@@ -42,7 +37,6 @@ const Experience = () => {
         setWorkQA(false);
         setWorkInternship(false);
         setWorkStartUp(true);
-        setWorkFreelance(false);
     };
 
     const handleFreelance = () => {
@@ -50,7 +44,6 @@ const Experience = () => {
         setWorkQA(false);
         setWorkInternship(false);
         setWorkStartUp(false);
-        setWorkFreelance(true);
     };
 
 
@@ -80,8 +73,8 @@ const Experience = () => {
                         : "border-l-hoverColor : text-textDark"
                     } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
-                    Cognizant 
-                    <br /><em>(Team-lead)</em> 
+                    Mayo Clinic 
+                    <br /><em>(Engineering Technician II)</em> 
                 </li>
 
                 {/* QA */}
@@ -93,7 +86,9 @@ const Experience = () => {
                         : "border-l-hoverColor : text-textDark"
                     } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
-                    Cognizant 
+                    Game Design 
+                    <br /><em>(Freelance)</em>  
+
                 </li>
 
                 {/* Internship */}
@@ -105,8 +100,8 @@ const Experience = () => {
                         : "border-l-hoverColor : text-textDark"
                     } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
-                    Mashauri Limited
-                    <br /><em>(Internship)</em>  
+                    Zero Hour Interactive
+                    <br /><em>(Consultant)</em>  
                 </li>
 
                 {/* StartUp */}
@@ -118,20 +113,8 @@ const Experience = () => {
                         : "border-l-hoverColor : text-textDark"
                     } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
-                    Out-of-the-Cube
+                    Impact Studios
                     <br /><em>(Start-up)</em>  
-                </li>
-
-                {/* Freelance */}
-                <li 
-                  onClick={handleFreelance}
-                  className ={`${
-                    workFreelance 
-                        ? "border-l-textGreen text-textGreen" 
-                        : "border-l-hoverColor : text-textDark"
-                    } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
-                    >
-                    Freelance 
                 </li>
             </ul>
 
@@ -142,7 +125,6 @@ const Experience = () => {
           {workQA && <QA />}
           {workInternship && <Internship />}
           {workStartUp && <StartUp />}
-          {workFreelance && <Freelance />}
 
         </div>
     </section>

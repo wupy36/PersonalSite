@@ -11,7 +11,6 @@ const Banner = () => {
       '    ',
       'Full-Stack Developer',
       'Quality Engineer',
-      'React Specialist',
       'Python Enthusiast',
       'Next.js Developer',
       'Web Developer',

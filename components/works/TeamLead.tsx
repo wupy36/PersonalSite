@@ -15,23 +15,21 @@ const TeamLead = () => {
       {/* JOB TITLE & COMPANY */}
       <div className='flex flex-wrap gap-1 font-medium text-xl font-titleFont flex-col sml:flex-row'>
         <h3>
-          Locale/Team Lead - English Variant Locales
+          HTM Engineering Technician II - Mayo Clinic
         </h3>
         <span className='text-sm mt-1 font-medium text-textGreen flex'>
-          @ Cognizant / Apple
+          @ Engineering Technician
           &ensp; 
-          <BsApple />
         </span>
       </div>
       
       {/* Working Dates */}
-      <p className='pt-3'>June 2022 - December 2022</p>
+      <p className='pt-3'>June 2019 - Present</p>
 
       {/* INTRODUCTION */}
       <p className='mt-3 text-base font-light flex gap-2 text-textDark'><strong>
         Promoted to a taem lead position, along with and ontop of my QA/QE responsibilities.  My role involved actively supporting managers and overseeing the operations of multiple teams. 
         <br/>
-        Key responsibilities included:
       </strong></p>
 
       {/* Bullet Points */}
@@ -39,28 +37,33 @@ const TeamLead = () => {
         <ul className='mt-4 flex flex-col gap-3 text-textDark'>
 
           <BulletPoint 
-            headningText='Assisting and supporting managers'
-            contentText='Collaborating closely with managers to provide seamless assistance and support in their day-to-day responsibilities, ensuring efficient workflow and effective team coordination.'
+            headningText='Project Management Expertise'
+            contentText='Proficiently managed non-clinical projects, ensuring timely completion and budget adherence while optimizing resources.'
           />
 
           <BulletPoint 
-            headningText='Coordinating and reviewing tasks'
-            contentText='Taking charge of task coordination and reviewing processes across multiple teams, ensuring that high quality standards were met while adhering to deadlines. This involved meticulous monitoring of progress and providing guidance to team members to ensure successful project completion.'
+            headningText='Mechanical Design Expertise'
+            contentText='Demonstrated proficiency in mechanical design, utilizing industry-standard CAD software to create innovative and functional designs that meet project requirements.'
           />
 
-          <BulletPoint
-            headningText='Providing clear instructions and guidance'
-            contentText='Offering comprehensive instructions and guidance to the team, effectively communicating new tasks, objectives, and performance expectations. This ensured that team members had the necessary direction and resources to accomplish their roles effectively.'
+          <BulletPoint 
+            headningText='Python Programming Skills'
+            contentText='Applied Python programming to develop customized tools and scripts for automation, data analysis, and simulations, enhancing workflow efficiency.'
           />
 
-          <BulletPoint
-            headningText='Reporting progress to management'
-            contentText='Regularly updating management on project progress, highlighting achievements, addressing challenges, and reporting any issues encountered. This facilitated informed decision-making and proactive problem-solving.'
+          <BulletPoint 
+            headningText='Interdisciplinary Collaboration'
+            contentText='Fostered collaboration between mechanical design and programming teams, facilitating integrated solutions for complex projects.'
           />
 
-          <BulletPoint
-            headningText='Facilitating onboarding and performance feedback'
-            contentText='Assisting in the smooth onboarding process for new team members, ensuring a seamless transition and supporting their integration into the team. Additionally, providing constructive performance feedback to both management and team members, recognizing accomplishments and identifying areas for improvement.'
+          <BulletPoint 
+            headningText='Quality Assurance and Compliance'
+            contentText='Ensured strict adherence to quality standards and regulatory requirements in both mechanical design and non-clinical projects, maintaining consistency and compliance.'
+          />
+          
+          <BulletPoint 
+            headningText='Efficient Resource Management'
+            contentText='Managed resources effectively, optimizing project outcomes by balancing timelines, budgets, and available resources for successful project delivery.'
           />
 
         </ul>
