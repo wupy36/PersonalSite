@@ -19,8 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Andrew Duit</title>
-        <meta name='title' content='Andrew Duit -Full Stack Developer | Game Designer | PortfolioS'/>
+        <title>Andrew Duit - Full Stack Developer | Game Designer | Portfolio</title>
         <meta name='description' content='Dive into my world of coding and gaming! Explore my portfolio as a full-stack developer and game design enthusiast. It&apos;s the perfect blend of tech and creativity!' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <meta name='keyword' content='react, unreal engine, ue5, full stack,  nextjs, vr, engineer, full stack, developer'/>
