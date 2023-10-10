@@ -15,7 +15,7 @@ const BigProjects: React.FC = () => {
     height: 300,
   };
   const imageUrl1 =
-    "/assets/images/ProjectPictures/small-images/";
+    "/assets/images/ProjectPictures/Smallened/BLtpl.png";
 
   {
     /* PROJECT 2 */
@@ -28,7 +28,7 @@ const BigProjects: React.FC = () => {
     height: 300,
   };
   const imageUrl2 =
-    "/assets/images/ProjectPictures/small-images/";
+    "/assets/images/ProjectPictures/Smallened/Battlespace.jpg";
 
   {
     /* PROJECT 3 */
@@ -41,7 +41,7 @@ const BigProjects: React.FC = () => {
     height: 300,
   };
   const imageUrl3 =
-    "/assets/images/ProjectPictures/small-images/";
+    "/assets/images/ProjectPictures/Smallened/Zamboni.jpg";
 
   {
     /* PROJECT 5 */
@@ -54,7 +54,7 @@ const BigProjects: React.FC = () => {
     height: 300,
   };
   const imageUrl5 =
-    "/assets/images/ProjectPictures/small-images/";
+    "/assets/images/ProjectPictures/Smallened/ComingSoon4_small.png";
 
   return (
     <div
@@ -102,7 +102,7 @@ const BigProjects: React.FC = () => {
 
         {/* PROJECT 3 */}
         <BigProjectCard
-          image={imageProps3}
+          image={imageProps5}
           imageUrl={imageUrl3}
           title="Zamboni Fight Simulator VR"
           description="Dive into the ice-cold action with 'Zamboni Fight Simulator VR'! Strap on your virtual reality headset and team up in thrilling 2v2 battles where you'll race against the clock to knock your opponents off the ice or be the fastest to resurface the rink. Can you outmaneuver and out-resurface your rivals in this high-energy, multiplayer VR showdown?"
