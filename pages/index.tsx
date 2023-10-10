@@ -20,9 +20,10 @@ export default function Home() {
     <>
       <Head>
         <title>Andrew Duit</title>
-        <meta name='description' content='Dive into my awesome world of coding and gaming! Check out my portfolio as a full-stack wizard and game design enthusiast. Experience the perfect mix of tech and creativity right here!' />
+        <meta name='title' content='Andrew Duit -Full Stack Developer | Game Designer | PortfolioS'/>
+        <meta name='description' content='Dive into my world of coding and gaming! Explore my portfolio as a full-stack developer and game design enthusiast. It&apos;s the perfect blend of tech and creativity!' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <meta name='keywords' content='react, portfolio, nextjs, unreal engine, ue5, vr, engineer, full stack, developer, andrew, duit, andrew duit'/>
+        <meta name='keyword' content='react, unreal engine, ue5, full stack,  nextjs, vr, engineer, full stack, developer'/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-textDark/5 scrollbar-thumb-textDark/70' >     
