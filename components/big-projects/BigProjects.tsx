@@ -15,7 +15,7 @@ const BigProjects: React.FC = () => {
     height: 300,
   };
   const imageUrl1 =
-    "/assets/images/ProjectPictures/small-images/EcommerceSmall.webp";
+    "/assets/images/ProjectPictures/small-images/";
 
   {
     /* PROJECT 2 */
@@ -28,7 +28,7 @@ const BigProjects: React.FC = () => {
     height: 300,
   };
   const imageUrl2 =
-    "/assets/images/ProjectPictures/small-images/SpotifyCloneSmall.webp";
+    "/assets/images/ProjectPictures/small-images/";
 
   {
     /* PROJECT 3 */
@@ -41,20 +41,20 @@ const BigProjects: React.FC = () => {
     height: 300,
   };
   const imageUrl3 =
-    "/assets/images/ProjectPictures/small-images/FaceDetectionSmall.png";
+    "/assets/images/ProjectPictures/small-images/";
 
   {
     /* PROJECT 5 */
   }
   //-------------------------------------------------------------
   const imageProps5 = {
-    src: "/assets/images/ProjectPictures/Ai-toolbox.png",
+    src: "/assets/images/ProjectPictures/",
     alt: "Image-Description",
     width: 500,
     height: 300,
   };
   const imageUrl5 =
-    "/assets/images/ProjectPictures/small-images/Ai-toolboxSmall.png";
+    "/assets/images/ProjectPictures/small-images/";
 
   return (
     <div

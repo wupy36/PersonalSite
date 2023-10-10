@@ -2,10 +2,10 @@ import logo from "./images/LogoBig.png";
 import profileImg from "./images/profile.jpeg";
 import profileImgCircle from "./images/profile-circle.png";
 
-import FaceDetection from "./images/ProjectPictures/FaceDetection.png";
-import Ecommerce from "./images/ProjectPictures/Ecommerce.webp";
-import MissionControl from "./images/ProjectPictures/Mission-Control.jpg";
-import SpotifyClone from "./images/ProjectPictures/SpotifyClone.webp"
+import FaceDetection from "./images/ProjectPictures/Zamboni.jpg";
+import Ecommerce from "./images/ProjectPictures/Zamboni.jpg";
+import MissionControl from "./images/ProjectPictures/Zamboni.jpg";
+import SpotifyClone from "./images/ProjectPictures/Zamboni.jpg"
 
 
 import TypeScript from "./images/Skills/TypeScript.png";
