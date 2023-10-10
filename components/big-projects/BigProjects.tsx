@@ -48,7 +48,7 @@ const BigProjects: React.FC = () => {
   }
   //-------------------------------------------------------------
   const imageProps5 = {
-    src: "/assets/images/ProjectPictures/",
+    src: "/assets/images/ProjectPictures/coming-soon.jpg",
     alt: "Image-Description",
     width: 500,
     height: 300,
@@ -80,12 +80,12 @@ const BigProjects: React.FC = () => {
         <BigProjectCard
           image={imageProps5}
           imageUrl={imageUrl5}
-          title="AI Toolbox"
-          description="A powerful repository of Language Model-based AI tools powered by OpenAI. Seamlessly access natural language processing, sentiment analysis, and text generation from one webpage. Embrace AI with effortless integration, revolutionize data processing, and unlock deeper insights. Stripe integration ensures seamless payment handling"
-          gitLink="https://store.steampowered.com/app/1342400/Burning_Lands/"
-          liveLink="https://burninglandsvietnam.com/"
-          youtubeLink="https://github.com/DevonGifford"
-          techStackList={["Unreal Engine 5", "Blueprint", "C++"]}
+          title="Coming Soon"
+          description="Work in progress"
+          gitLink="https://andrewduit.com"
+          liveLink="https://andrewduit.com"
+          youtubeLink="https://andrewduit.com"
+          techStackList={["Coming Soon"]}
         />
 
         {/* PROJECT 2 */}
