@@ -23,7 +23,7 @@ const ProjectCard = ({ title, description, gitLink, liveLink, listItems }:Props)
             href={gitLink} 
             target='_blank'
           >
-            <RiGithubLine className='text-2xl hover:text-textGreen' />
+            <RiGithubLine className='text-2xl hover:text-textViolet' />
           </a>
 
           {/* LIVE LINK */}
@@ -31,7 +31,7 @@ const ProjectCard = ({ title, description, gitLink, liveLink, listItems }:Props)
             href={liveLink} 
             target='_blank'
           >
-            <FiExternalLink className='text-2xl hover:text-textGreen' />
+            <FiExternalLink className='text-2xl hover:text-textViolet' />
           </a>
 
 
@@ -44,7 +44,7 @@ const ProjectCard = ({ title, description, gitLink, liveLink, listItems }:Props)
           href={liveLink}
           target='_blank'
         >
-          <h2 className='text-xl font-titleFont font-semibold tracking-wide group-hover:text-textGreen'>{title}</h2>
+          <h2 className='text-xl font-titleFont font-semibold tracking-wide group-hover:text-textViolet'>{title}</h2>
         </a>
         
         {/* DESCRIPTION */}
@@ -57,7 +57,7 @@ const ProjectCard = ({ title, description, gitLink, liveLink, listItems }:Props)
         <ul className='text-xs mdl:text-sm text-textDark flex items-center gap-2 justify-between flex-wrap'>
             {listItems.map((item, i) => (
                 <li 
-                  className='hover:text-textGreen' 
+                  className='hover:text-textViolet' 
                   key={i}
                 >
                   {item}

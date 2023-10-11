@@ -76,14 +76,14 @@ const ProjectCard: React.FC<Props> = ({
           {/* Text-div */}
           <div 
           className='w-full z-10 sml:w-1/2 flex flex-col gap-6 sml:justify-between items-end text-right md:-ml-16 '>
-            <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
-            <h3 className='text-2xl font-bold hover:text-textGreen'> {title} </h3>
+            <p className='font-titleFont text-textViolet text-sm tracking-wide'>Featured Project</p>
+            <h3 className='text-2xl font-bold hover:text-textViolet'> {title} </h3>
             {/* description block */}
             <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
               {description}
             </p>
             {/* list of tech used */}
-            <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textGreen'>
+            <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textViolet'>
               {techStackList.map((item, i) => (
                 <li key={i}>{item}</li>
                 ))}
@@ -92,21 +92,21 @@ const ProjectCard: React.FC<Props> = ({
             <div className='text-2xl flex gap-4'>
                 {/* GitHub */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={gitLink} 
                   target='_blank'>
                     <RiGithubLine />
                 </a>
                 {/* YouTube */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={youtubeLink} 
                   target='_blank'>
                     <SlSocialYoutube />
                 </a>
                 {/* LiveDemo */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={liveLink}
                   target='_blank'>
                     <FiExternalLink />
@@ -124,8 +124,8 @@ const ProjectCard: React.FC<Props> = ({
           className='w-fit px-5 z-10 flex flex-col gap-6 mx-3'>
 
             {/* Header section */}
-            <p className='font-titleFont text-textGreen text-sm tracking-wide pt-5'>Featured Project</p>
-            <h3 className='font-titleFont text-2xl font-bold hover:text-textGreen'> {title} </h3>
+            <p className='font-titleFont text-textViolet text-sm tracking-wide pt-5'>Featured Project</p>
+            <h3 className='font-titleFont text-2xl font-bold hover:text-textViolet'> {title} </h3>
             
             {/* description block */}
             <p className='text-xs font-semibold sml:text-base rounded-md'>
@@ -133,7 +133,7 @@ const ProjectCard: React.FC<Props> = ({
             </p>
             
             {/* list of tech used */}
-            <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textGreen'>
+            <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textViolet'>
               {techStackList.map((item, i) => (
                   <li key={i}>{item}</li>
                   ))}
@@ -143,21 +143,21 @@ const ProjectCard: React.FC<Props> = ({
             <div className='text-2xl flex gap-4 pb-10 items-end text-right'>
                 {/* GitHub */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={gitLink}
                   target='_blank'>
                     <RiGithubLine />
                 </a>
                 {/* YouTube */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={youtubeLink}
                   target='_blank'>
                     <SlSocialYoutube />
                 </a>
                 {/* LiveDemo */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={youtubeLink}
                   target='_blank'>
                     <FiExternalLink />

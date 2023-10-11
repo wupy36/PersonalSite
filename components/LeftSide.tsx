@@ -16,25 +16,25 @@ const LeftSide = () => {
           className='flex flex-col gap-4'>
             {/* Github Icon */}
             <a href="https://github.com/wupy36" target='_blank'>
-                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
+                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textViolet cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                 <SiGithub />
                 </span>
             </a>
             {/* LinkedIn Icon */}
             <a href="https://www.linkedin.com/in/andrewduit/" target='_blank'>
-                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
+                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textViolet cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                 <BsLinkedin />
                 </span>
             </a>
             {/* Twitter Icon */}
             <a href="https://twitter.com/duitandrew" target='_blank'>
-                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
+                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textViolet cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                 <TiSocialTwitter />
                 </span>
             </a>
             {/* Instagram Icon */}
             <a href="https://www.instagram.com/andrewduit/" target='_blank'>
-                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
+                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textViolet cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                 <TiSocialInstagram />
                 </span>
             </a>                                    

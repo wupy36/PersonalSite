@@ -10,7 +10,7 @@ const RightSide = () => {
       className='w-full h-full flex flex-col items-center justify-end gap-40 text-textLight'>
         <a href="mailto:andrewduit@gmail.com">
             <p 
-            className='text-sm rotate-90 w-62 tracking-widest hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'
+            className='text-sm rotate-90 w-62 tracking-widest hover:text-textViolet cursor-pointer hover:-translate-y-2 transition-all duration-300'
             >andrewduit@gmail.com
             </p>
         </a>

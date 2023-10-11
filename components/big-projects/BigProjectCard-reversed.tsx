@@ -71,10 +71,10 @@ const ProjectCardReversed: React.FC<Props> = ({
           >
 
             {/* heading section */}
-            <p className='font-titleFont text-textGreen text-sm tracking-wide'>
+            <p className='font-titleFont text-textViolet text-sm tracking-wide'>
               Featured Project
             </p>
-            <h3 className='text-2xl font-bold hover:text-textGreen'> 
+            <h3 className='text-2xl font-bold hover:text-textViolet'> 
               {title} 
             </h3>
 
@@ -84,7 +84,7 @@ const ProjectCardReversed: React.FC<Props> = ({
             </p>
 
             {/* list of tech used */}
-            <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 text-textGreen'>
+            <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 text-textViolet'>
               {techStackList.map((item, i) => (
                 <li key={i}>{item}</li>
                 ))}
@@ -94,21 +94,21 @@ const ProjectCardReversed: React.FC<Props> = ({
             <div className='text-2xl flex gap-4'>
                 {/* GitHub */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={gitLink} 
                   target='_blank'>
                     <RiGithubLine />
                 </a>
                 {/* YouTube */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={youtubeLink} 
                   target='_blank'>
                     <SlSocialYoutube />
                 </a>
                 {/* LiveDemo */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={liveLink}
                   target='_blank'>
                     <FiExternalLink />
@@ -127,8 +127,8 @@ const ProjectCardReversed: React.FC<Props> = ({
           className='w-fit px-5 z-10 flex flex-col gap-6 mx-3'>
 
             {/* Header section */}
-            <p className='font-titleFont text-textGreen text-sm tracking-wide pt-5'>Featured Project</p>
-            <h3 className='font-titleFont text-2xl font-bold hover:text-textGreen'> {title} </h3>
+            <p className='font-titleFont text-textViolet text-sm tracking-wide pt-5'>Featured Project</p>
+            <h3 className='font-titleFont text-2xl font-bold hover:text-textViolet'> {title} </h3>
             
             {/* description block */}
             <p className='text-xs font-semibold sml:text-base rounded-md'>
@@ -136,7 +136,7 @@ const ProjectCardReversed: React.FC<Props> = ({
             </p>
             
             {/* list of tech used */}
-            <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textGreen'>
+            <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textViolet'>
               {techStackList.map((item, i) => (
                   <li key={i}>{item}</li>
                   ))}
@@ -146,21 +146,21 @@ const ProjectCardReversed: React.FC<Props> = ({
             <div className='text-2xl flex gap-4 pb-10 items-end text-right'>
                 {/* GitHub */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={gitLink}
                   target='_blank'>
                     <RiGithubLine />
                 </a>
                 {/* YouTube */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={youtubeLink}
                   target='_blank'>
                     <SlSocialYoutube />
                 </a>
                 {/* LiveDemo */}
                 <a 
-                  className='hover:text-textGreen duration-300' 
+                  className='hover:text-textViolet duration-300' 
                   href={youtubeLink}
                   target='_blank'>
                     <FiExternalLink />

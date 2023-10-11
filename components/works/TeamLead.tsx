@@ -17,7 +17,7 @@ const TeamLead = () => {
         <h3>
           HTM Engineering Technician II - Mayo Clinic
         </h3>
-        <span className='text-sm mt-1 font-medium text-textGreen flex'>
+        <span className='text-sm mt-1 font-medium text-textViolet flex'>
           @ Engineering Technician
           &ensp; 
         </span>

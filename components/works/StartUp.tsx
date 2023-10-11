@@ -14,7 +14,7 @@ const StartUp = () => {
       {/* JOB TITLE & COMPANY */}
       <div className='flex flex-wrap gap-1 font-medium text-xl font-titleFont flex-col sml:flex-row'>
         <h3>Director | Impact Studios</h3>
-        <span className='text-sm mt-1 font-medium text-textGreen flex'>@ Start-up</span>
+        <span className='text-sm mt-1 font-medium text-textViolet flex'>@ Start-up</span>
       </div>
       
       {/* Working Dates */}

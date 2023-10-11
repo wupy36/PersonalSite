@@ -15,7 +15,7 @@ const QA = () => {
       {/* JOB TITLE & COMPANY */}
       <h3 className='flex gap-1 font-medium text-xl font-titleFont flex-col sml:flex-row'>
         Game Designer | Freelance
-        <span className='text-sm mt-1 font-medium text-textGreen flex'>
+        <span className='text-sm mt-1 font-medium text-textViolet flex'>
           @ Modding
           &ensp; 
         </span>

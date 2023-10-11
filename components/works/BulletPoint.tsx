@@ -11,7 +11,7 @@ const BulletPoint = ({ headningText, contentText }: Props) => {
     <li className='text-base gap-2'>
 
       {/* HEADING SECTION */}
-      <div className='text-textGreen flex flex-row'> 
+      <div className='text-textViolet flex flex-row'> 
         <BsArrowRightShort />
         &ensp;
         <span className='leading-tight'>

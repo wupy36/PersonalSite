@@ -8,7 +8,6 @@ const Banner = () => {
 
   const options: Options = {
     strings: [
-      '    ',
       'Full-Stack Developer',
       'Quality Engineer',
       'Python Enthusiast',
@@ -20,6 +19,7 @@ const Banner = () => {
     ],
     autoStart: true,
     loop: true,
+    delay: 20,
   };
 
   return (
@@ -30,7 +30,7 @@ const Banner = () => {
 
       {/* Hello World Heading */}
       <motion.h3
-        className='text-xs md:text-lg font-codeFont tracking-wide text-textGreen'
+        className='text-xs md:text-lg font-codeFont tracking-wide text-textViolet'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 2}}    
@@ -60,37 +60,25 @@ const Banner = () => {
         className='text-sm sml:text-base text-textDark font-medium'
       >
           {" "}
-          I&apos;m Andrew Duit, a coffee-loving video game developer with <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>1</span> official title released and another project in progress. I&apos;ve contributed to <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>20</span> video game projects and enjoy playing the guitar in my free time. <br />
+          I&apos;m Andrew Duit, a coffee-loving, published video game developer and a passion for technology and programming. 
           <br /><br />
-          Helping others is a core value, and I&apos;m passionate about learning technology and programming. My journey is one of continuous growth, supported by my loving wife, as I navigate the world of game development and technology.
+          My journey is one of continuous growth, fully committed to the philosophy of life-long learning, supported by my loving wife.
           <br /><br />
-          <em>Fully committed to the philosophy of life-long learning.</em> {" "} <br /><br />
+          <em>I&apos;m dedicated to lifelong learning and helping others as a fundamental principle.</em> {" "} <br /><br />
           
           
           <a href="https://www.linkedin.com/in/andrewduit/" target='_blank'>
               
               <span
-              className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'
+              className='text-textViolet inline-flex relative cursor-pointer h-7 overflow-x-hidden group'
               >
                   Learn More
                   {/* Animated underline bar */}
-                  <span className='absolute w-full h-[1px] bg-textGreen left-0 bottom-1 translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500'></span>
+                  <span className='absolute w-full h-[1px] bg-textViolet left-0 bottom-1 translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500'></span>
               </span>
 
           </a>
       </motion.p>
-        
-      {/* Button */}
-      <a href="https://github.com/wupy36?tab=repositories" target='_blank'>
-        <motion.button
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 2.5}}        
-          className='w-40 h-10 text-xs sml:w-52 sml:h-14 sml:text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300'
-          >
-            Check out my Projects
-        </motion.button>
-      </a>
 
     </section>
   )

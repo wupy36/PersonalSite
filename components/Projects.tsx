@@ -35,23 +35,23 @@
 //                 alt="Project1" 
 //                 />
 //                 {/* Green overlay */}
-//                 <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300 md:inline-block'></div>
+//                 <div className='absolute w-full h-full bg-textViolet/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300 md:inline-block'></div>
 //             </div>
 //           </a>
 //           {/* Text-div */}
 //           <div 
 //           className='w-full z-10 sml:w-1/2 flex flex-col gap-6 sml:justify-between items-end text-right md:-ml-16 '>
-//             <p className='font-codeFont text-textGreen text-sm tracking-wide'>Featured Project</p>
+//             <p className='font-codeFont text-textViolet text-sm tracking-wide'>Featured Project</p>
 //             {/* heading block - clickable link 🎯 TO-DO */}
 //             <a href="">
-//               <h3 className='text-2xl font-bold hover:text-textGreen'> PROJECT - TITLE </h3>
+//               <h3 className='text-2xl font-bold hover:text-textViolet'> PROJECT - TITLE </h3>
 //             </a>
 //             {/* description block */}
 //             <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-//               This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textGreen'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textGreen'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
+//               This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textViolet'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textViolet'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
 //             </p>
 //             {/* list of tech used */}
-//             <ul className='text-xs md:text-sm font-codeFont tracking-wide flex gap-2 md:gap-5 justify-between text-textGreen'>
+//             <ul className='text-xs md:text-sm font-codeFont tracking-wide flex gap-2 md:gap-5 justify-between text-textViolet'>
 //               <li>NextJS</li>
 //               <li>API</li>
 //               <li>NodeJS</li>
@@ -62,21 +62,21 @@
 //             <div className='text-2xl flex gap-6'>
 //                 {/* GitHub */}
 //                 <a 
-//                   className='hover:text-textGreen duration-300' 
+//                   className='hover:text-textViolet duration-300' 
 //                   href="https://github.com/DevonGifford" 
 //                   target='_blank'>
 //                     <RiGithubLine />
 //                 </a>
 //                 {/* YouTube */}
 //                 <a 
-//                   className='hover:text-textGreen duration-300' 
+//                   className='hover:text-textViolet duration-300' 
 //                   href="https://github.com/DevonGifford" 
 //                   target='_blank'>
 //                     <SlSocialYoutube />
 //                 </a>
 //                 {/* LiveDemo */}
 //                 <a 
-//                   className='hover:text-textGreen duration-300' 
+//                   className='hover:text-textViolet duration-300' 
 //                   href="https://github.com/DevonGifford" 
 //                   target='_blank'>
 //                     <FiExternalLink />
@@ -89,17 +89,17 @@
 //         <div className='bg-no1 hover:shadow-xl shadow-inner bg-no-repeat bg-cover bg-center bg-fixed flex-col rounded-lg mdl:hidden sml:mx-5'>
 //           <div 
 //           className='w-fit sml:px-5 z-10 flex flex-col gap-6 mx-3'>
-//             <p className='font-codeFont text-textGreen text-sm tracking-wide pt-5'>Featured Project</p>
+//             <p className='font-codeFont text-textViolet text-sm tracking-wide pt-5'>Featured Project</p>
 //             {/* heading block - clickable link 🎯TO-DO*/}
 //             <a href="">  
-//               <h3 className='font-titleFont text-2xl font-bold hover:text-textGreen'> PROJECT - TITLE </h3>
+//               <h3 className='font-titleFont text-2xl font-bold hover:text-textViolet'> PROJECT - TITLE </h3>
 //             </a>
 //             {/* description block */}
 //             <p className='text-xs sml:text-base rounded-md'>
-//               This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textGreen'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textGreen'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
+//               This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textViolet'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textViolet'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
 //             </p>
 //             {/* list of tech used */}
-//             <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textGreen'>
+//             <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textViolet'>
 //               <li>NextJS</li>
 //               <li>API</li>
 //               <li>NodeJS</li>
@@ -110,21 +110,21 @@
 //             <div className='text-2xl flex gap-4 pb-10 items-end text-right'>
 //                 {/* GitHub */}
 //                 <a 
-//                   className='hover:text-textGreen duration-300' 
+//                   className='hover:text-textViolet duration-300' 
 //                   href="https://github.com/DevonGifford" 
 //                   target='_blank'>
 //                     <RiGithubLine />
 //                 </a>
 //                 {/* YouTube */}
 //                 <a 
-//                   className='hover:text-textGreen duration-300' 
+//                   className='hover:text-textViolet duration-300' 
 //                   href="https://github.com/DevonGifford" 
 //                   target='_blank'>
 //                     <SlSocialYoutube />
 //                 </a>
 //                 {/* LiveDemo */}
 //                 <a 
-//                   className='hover:text-textGreen duration-300' 
+//                   className='hover:text-textViolet duration-300' 
 //                   href="https://github.com/DevonGifford" 
 //                   target='_blank'>
 //                     <FiExternalLink />
@@ -155,23 +155,23 @@
 //                       alt="Project1" 
 //                       />
 //                       {/* Green overlay */}
-//                       <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
+//                       <div className='absolute w-full h-full bg-textViolet/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
 //                   </div>
 //               </a>
 //               {/* Text-side */}
 //               <div 
 //               className='w-full z-10 sml:w-1/2 flex flex-col gap-6 sml:justify-between md:-mr-16'>
-//                   <p className='font-codeFont text-textGreen text-sm tracking-wide'>Featured Project</p>
+//                   <p className='font-codeFont text-textViolet text-sm tracking-wide'>Featured Project</p>
 //                   {/* heading block - clickable link 🎯 TO-DO */}                  
 //                   <a href="">
-//                     <h3 className='text-2xl font-bold hover:text-textGreen'> PROJECT - TITLE 2 </h3>
+//                     <h3 className='text-2xl font-bold hover:text-textViolet'> PROJECT - TITLE 2 </h3>
 //                   </a>
 //                   {/* description block */}
 //                   <p className='bg-[#112240] text-sm md:text-base px-5 py-5 rounded-md'>
-//                       This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textGreen'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textGreen'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
+//                       This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textViolet'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textViolet'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
 //                   </p>
 //                   {/* list of tech used */}
-//                   <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 text-textGreen'>
+//                   <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 text-textViolet'>
 //                       <li>NextJS</li>
 //                       <li>API</li>
 //                       <li>NodeJS</li>
@@ -182,21 +182,21 @@
 //                   <div className='text-2xl flex gap-6'>
 //                       {/* GitHub */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <RiGithubLine />
 //                       </a>
 //                       {/* YouTube */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <SlSocialYoutube />
 //                       </a>
 //                       {/* LiveDemo */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <FiExternalLink />
@@ -209,17 +209,17 @@
 //           <div className='bg-no2 hover:shadow-xl shadow-inner bg-no-repeat bg-cover bg-center bg-fixed flex-col rounded-lg mdl:hidden sml:mx-5'>
 //               <div 
 //                 className='w-fit sml:px-5 z-10 flex flex-col gap-6 mx-3'>
-//                 <p className='font-codeFont text-textGreen text-sm tracking-wide pt-5'>Featured Project</p>
+//                 <p className='font-codeFont text-textViolet text-sm tracking-wide pt-5'>Featured Project</p>
 //                 {/* heading block - clickable link 🎯 TO-DO */}
 //                 <a href="">
-//                   <h3 className='font-titleFont text-2xl font-bold hover:text-textGreen'> PROJECT - TITLE 2 small </h3>
+//                   <h3 className='font-titleFont text-2xl font-bold hover:text-textViolet'> PROJECT - TITLE 2 small </h3>
 //                 </a>
 //                 {/* description block */}
 //                 <p className='text-xs sml:text-base rounded-md'>
-//                   This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textGreen'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textGreen'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
+//                   This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textViolet'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textViolet'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
 //                 </p>
 //                 {/* list of tech used */}
-//                 <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textGreen'>
+//                 <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textViolet'>
 //                   <li>NextJS</li>
 //                   <li>API</li>
 //                   <li>NodeJS</li>
@@ -230,21 +230,21 @@
 //                 <div className='text-2xl flex gap-4 pb-10 items-end text-right'>
 //                     {/* GitHub */}
 //                     <a 
-//                       className='hover:text-textGreen duration-300' 
+//                       className='hover:text-textViolet duration-300' 
 //                       href="https://github.com/DevonGifford" 
 //                       target='_blank'>
 //                         <RiGithubLine />
 //                     </a>
 //                     {/* YouTube */}
 //                     <a 
-//                       className='hover:text-textGreen duration-300' 
+//                       className='hover:text-textViolet duration-300' 
 //                       href="https://github.com/DevonGifford" 
 //                       target='_blank'>
 //                         <SlSocialYoutube />
 //                     </a>
 //                     {/* LiveDemo */}
 //                     <a 
-//                       className='hover:text-textGreen duration-300' 
+//                       className='hover:text-textViolet duration-300' 
 //                       href="https://github.com/DevonGifford" 
 //                       target='_blank'>
 //                         <FiExternalLink />
@@ -272,23 +272,23 @@
 //                       src={ComingSoon3}
 //                       alt="Project1" 
 //                       />
-//                       <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300 md:inline-block'></div>
+//                       <div className='absolute w-full h-full bg-textViolet/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300 md:inline-block'></div>
 //                   </div>
 //               </a>
 //               {/* Text-side */}
 //               <div 
 //               className='w-full z-10 sml:w-1/2 flex flex-col gap-6 sml:justify-between items-end text-right md:-ml-16 '>
-//                   <p className='font-codeFont text-textGreen text-sm tracking-wide'>Featured Project</p>
+//                   <p className='font-codeFont text-textViolet text-sm tracking-wide'>Featured Project</p>
 //                   {/* heading block - clickable link 🎯 TO-DO */}
 //                   <a href="">
-//                     <h3 className='text-2xl font-bold hover:text-textGreen'> PROJECT - TITLE 3 </h3>
+//                     <h3 className='text-2xl font-bold hover:text-textViolet'> PROJECT - TITLE 3 </h3>
 //                   </a>
 //                   {/* description block */}
 //                   <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-//                       This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textGreen'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textGreen'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
+//                       This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textViolet'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textViolet'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
 //                   </p>
 //                   {/* list of tech used */}
-//                   <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textGreen'>
+//                   <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textViolet'>
 //                       <li>NextJS</li>
 //                       <li>API</li>
 //                       <li>NodeJS</li>
@@ -299,21 +299,21 @@
 //                   <div className='text-2xl flex gap-6'>
 //                       {/* GitHub */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <RiGithubLine />
 //                       </a>
 //                       {/* YouTube */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <SlSocialYoutube />
 //                       </a>
 //                       {/* LiveDemo */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <FiExternalLink />
@@ -326,17 +326,17 @@
 //           <div className='bg-no3 hover:shadow-xl shadow-inner bg-no-repeat bg-cover bg-center bg-fixed flex-col rounded-lg mdl:hidden sml:mx-5'>
 //           <div 
 //             className='w-fit sml:px-5 z-10 flex flex-col gap-6 mx-3'>
-//               <p className='font-codeFont text-textGreen text-sm tracking-wide pt-5'>Featured Project</p>
+//               <p className='font-codeFont text-textViolet text-sm tracking-wide pt-5'>Featured Project</p>
 //               {/* heading block - clickable link 🎯 TO-DO */}
 //               <a href="">
-//                 <h3 className='font-titleFont text-2xl font-bold hover:text-textGreen'> PROJECT - TITLE 3 </h3>
+//                 <h3 className='font-titleFont text-2xl font-bold hover:text-textViolet'> PROJECT - TITLE 3 </h3>
 //               </a>
 //               {/* description block */}
 //               <p className='text-xs sml:text-base rounded-md'>
-//                 This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textGreen'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textGreen'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
+//                 This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textViolet'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textViolet'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
 //               </p>
 //               {/* list of tech used */}
-//               <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textGreen'>
+//               <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textViolet'>
 //                 <li>NextJS</li>
 //                 <li>API</li>
 //                 <li>NodeJS</li>
@@ -347,21 +347,21 @@
 //               <div className='text-2xl flex gap-4 pb-10 items-end text-right'>
 //                   {/* GitHub */}
 //                   <a 
-//                     className='hover:text-textGreen duration-300' 
+//                     className='hover:text-textViolet duration-300' 
 //                     href="https://github.com/DevonGifford" 
 //                     target='_blank'>
 //                       <RiGithubLine />
 //                   </a>
 //                   {/* YouTube */}
 //                   <a 
-//                     className='hover:text-textGreen duration-300' 
+//                     className='hover:text-textViolet duration-300' 
 //                     href="https://github.com/DevonGifford" 
 //                     target='_blank'>
 //                       <SlSocialYoutube />
 //                   </a>
 //                   {/* LiveDemo */}
 //                   <a 
-//                     className='hover:text-textGreen duration-300' 
+//                     className='hover:text-textViolet duration-300' 
 //                     href="https://github.com/DevonGifford" 
 //                     target='_blank'>
 //                       <FiExternalLink />
@@ -390,24 +390,24 @@
 //                       src={ComingSoon4}
 //                       alt="Project1" 
 //                       />
-//                       <div className='absolute w-full h-full bg-textGreen/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
+//                       <div className='absolute w-full h-full bg-textViolet/20 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
 //                   </div>
 //               </a>
               
 //               {/* Text-side */}
 //               <div 
 //                 className='w-full z-10 sml:w-1/2 flex flex-col gap-6 sml:justify-between md:-mr-16'>
-//                   <p className='font-codeFont text-textGreen text-sm tracking-wide'>Featured Project</p>
+//                   <p className='font-codeFont text-textViolet text-sm tracking-wide'>Featured Project</p>
 //                   {/* heading block - clickable link 🎯 TO-DO */}
 //                   <a href="">
-//                     <h3 className='text-2xl font-bold hover:text-textGreen'> PROJECT - TITLE 4 big </h3>
+//                     <h3 className='text-2xl font-bold hover:text-textViolet'> PROJECT - TITLE 4 big </h3>
 //                   </a>
 //                   {/* description block */}
 //                   <p className='bg-[#112240] text-sm md:text-base px-5 py-5 rounded-md'>
-//                       This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textGreen'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textGreen'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
+//                       This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textViolet'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textViolet'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
 //                   </p>
 //                   {/* list of tech used */}
-//                   <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 text-textGreen'>
+//                   <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 text-textViolet'>
 //                       <li>NextJS</li>
 //                       <li>API</li>
 //                       <li>NodeJS</li>
@@ -418,21 +418,21 @@
 //                   <div className='text-2xl flex gap-6'>
 //                       {/* GitHub */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <RiGithubLine />
 //                       </a>
 //                       {/* YouTube */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <SlSocialYoutube />
 //                       </a>
 //                       {/* LiveDemo */}
 //                       <a 
-//                         className='hover:text-textGreen duration-300' 
+//                         className='hover:text-textViolet duration-300' 
 //                         href="https://github.com/DevonGifford" 
 //                         target='_blank'>
 //                           <FiExternalLink />
@@ -446,17 +446,17 @@
 //           <div className='bg-no4 hover:shadow-xl shadow-inner bg-no-repeat bg-cover bg-center bg-fixed flex-col rounded-lg mdl:hidden sml:mx-5'>
 //             <div 
 //               className='w-fit sml:px-5 z-10 flex flex-col gap-6 mx-3'>
-//               <p className='font-codeFont text-textGreen text-sm tracking-wide pt-5'>Featured Project</p>
+//               <p className='font-codeFont text-textViolet text-sm tracking-wide pt-5'>Featured Project</p>
 //               {/* heading block - clickable link 🎯 TO-DO */}
 //               <a href="">
-//                 <h3 className='font-titleFont text-2xl font-bold hover:text-textGreen'> PROJECT - TITLE 4 small </h3>
+//                 <h3 className='font-titleFont text-2xl font-bold hover:text-textViolet'> PROJECT - TITLE 4 small </h3>
 //               </a>
 //               {/* description block */}
 //               <p className='text-xs sml:text-base rounded-md'>
-//                 This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textGreen'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textGreen'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
+//                 This is where I will give brief description of the project and what it does, I will aslo use this <span className='text-textViolet'>hightlighting</span>  to emphasize the key aspects and the <span className='text-textViolet'>most important tech</span> I used in this project.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi porro aperiam rerum nam! Velit.
 //               </p>
 //               {/* list of tech used */}
-//               <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textGreen'>
+//               <ul className='text-xs font-codeFont tracking-wide flex gap-5 text-textViolet'>
 //                 <li>NextJS</li>
 //                 <li>API</li>
 //                 <li>NodeJS</li>
@@ -467,21 +467,21 @@
 //               <div className='text-2xl flex gap-4 pb-10 items-end text-right'>
 //                   {/* GitHub */}
 //                   <a 
-//                     className='hover:text-textGreen duration-300' 
+//                     className='hover:text-textViolet duration-300' 
 //                     href="https://github.com/DevonGifford" 
 //                     target='_blank'>
 //                       <RiGithubLine />
 //                   </a>
 //                   {/* YouTube */}
 //                   <a 
-//                     className='hover:text-textGreen duration-300' 
+//                     className='hover:text-textViolet duration-300' 
 //                     href="https://github.com/DevonGifford" 
 //                     target='_blank'>
 //                       <SlSocialYoutube />
 //                   </a>
 //                   {/* LiveDemo */}
 //                   <a 
-//                     className='hover:text-textGreen duration-300' 
+//                     className='hover:text-textViolet duration-300' 
 //                     href="https://github.com/DevonGifford" 
 //                     target='_blank'>
 //                       <FiExternalLink />

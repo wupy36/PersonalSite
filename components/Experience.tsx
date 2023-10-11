@@ -69,9 +69,9 @@ const Experience = () => {
                   onClick={handleTeamLead} 
                   className ={`${
                     workTeamLead 
-                        ? "border-l-textGreen text-textGreen" 
+                        ? "border-l-textViolet text-textViolet" 
                         : "border-l-hoverColor : text-textDark"
-                    } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
+                    } border-l-2 border-l-textViolet text-textDark bg-transparent hover:bg-[#0F4C75] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
                     Mayo Clinic 
                     <br /><em>(Engineering Technician II)</em> 
@@ -82,9 +82,9 @@ const Experience = () => {
                   onClick={handleQA}
                   className ={`${
                     workQA 
-                        ? "border-l-textGreen text-textGreen" 
+                        ? "border-l-textViolet text-textViolet" 
                         : "border-l-hoverColor : text-textDark"
-                    } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
+                    } border-l-2 border-l-textViolet text-textDark bg-transparent hover:bg-[#0F4C75] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
                     Game Design 
                     <br /><em>(Freelance)</em>  
@@ -96,9 +96,9 @@ const Experience = () => {
                   onClick={handleInternship}
                   className ={`${
                     workInternship 
-                        ? "border-l-textGreen text-textGreen" 
+                        ? "border-l-textViolet text-textViolet" 
                         : "border-l-hoverColor : text-textDark"
-                    } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
+                    } border-l-2 border-l-textViolet text-textDark bg-transparent hover:bg-[#0F4C75] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
                     Zero Hour Interactive
                     <br /><em>(Consultant)</em>  
@@ -109,9 +109,9 @@ const Experience = () => {
                   onClick={handleStartUp}
                   className ={`${
                     workStartUp 
-                        ? "border-l-textGreen text-textGreen" 
+                        ? "border-l-textViolet text-textViolet" 
                         : "border-l-hoverColor : text-textDark"
-                    } border-l-2 border-l-textGreen text-textDark bg-transparent hover:bg-[#112240] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
+                    } border-l-2 border-l-textViolet text-textDark bg-transparent hover:bg-[#0F4C75] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
                     Impact Studios
                     <br /><em>(Start-up)</em>  

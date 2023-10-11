@@ -9,7 +9,7 @@ const BigProjects: React.FC = () => {
   }
   //-------------------------------------------------------------
   const imageProps1 = {
-    src: "/assets/images/ProjectPictures/BLtpl.png",
+    src: "/assets/images/ProjectPictures/BL.gif",
     alt: "Burning Lands Project Image",
     width: 500,
     height: 300,
@@ -28,7 +28,7 @@ const BigProjects: React.FC = () => {
     height: 300,
   };
   const imageUrl2 =
-    "/assets/images/ProjectPictures/Smallened/Battlespace.jpg";
+    "/assets/images/ProjectPictures/Smallened/Battlespace.png";
 
   {
     /* PROJECT 3 */

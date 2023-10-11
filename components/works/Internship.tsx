@@ -14,7 +14,7 @@ const Internship = () => {
       {/* JOB TITLE & COMPANY */}
       <h3 className='flex gap-1 font-medium text-xl font-titleFont flex-col flex-wrap sml:flex-row'>
         Junior Game Designer & Programmer | Zero Hour Interactive
-        <span className='text-sm mt-1 font-medium text-textGreen'>
+        <span className='text-sm mt-1 font-medium text-textViolet'>
           @ Consultant 
         </span>
       </h3>
