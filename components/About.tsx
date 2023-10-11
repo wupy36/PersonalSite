@@ -51,7 +51,7 @@ const About = () => {
                     <p>
                         Hello, I&apos;m Andrew Duit, a <span className='text-textViolet'>passionate full stack developer</span> with a strong background in front-end and back-end development. 
                         <br /> <br />
-                        I specialize in crafting experiences and realities using Unreal Engine. My journey into game development began as a consultant creating mods, and I've since worked as a Game Designer and Programmer for an indie studio using Unreal Engine 5. 
+                        I specialize in crafting experiences and realities using Unreal Engine. My journey into game development began as a consultant creating mods, and I&apos;ve since worked as a Game Designer and Programmer for an indie studio using Unreal Engine 5. 
                         <br /> <br />
                         With my technical skills, creativity, and attention to detail, I aim to deliver innovative solutions that exceed client expectations. 
                         <br /> <br />
