@@ -38,6 +38,20 @@ export default function Home() {
             <LeftSide />
           </div>
           <div className='h-[88vh] w-full mx-auto p-4'>
+                <video 
+                style={{
+                  width: "100%",
+                  left: "100%",
+                  top: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+                src="/assets/videos/era.mp4" 
+                title="Showcase video" 
+                controls
+                autoPlay
+                muted
+              ></video>
              <Banner />
              <About />
              <Experience />
