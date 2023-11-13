@@ -20,7 +20,7 @@ const Internship = () => {
       </h3>
       
       {/* Working Dates */}
-      <p className='pt-3'>April 2023 - Present</p>
+      <p className='pt-3'>April 2023 - November 2023</p>
 
       {/* INTRODUCTION */}
       <p className='mt-3 text-base font-light flex gap-2 text-textDark'><strong>
