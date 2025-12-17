@@ -19,7 +19,7 @@ const SmallProjects = () => {
           description="Special Forces mod for Squad."
           gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2432926361"
           liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2432926361"
-          listItems={["Unreal Engine 4.27", "Blueprint"]} 
+          listItems={["Unreal Engine 5", "Blueprint"]} 
         />
 
         <ProjectCard 
@@ -27,7 +27,7 @@ const SmallProjects = () => {
           description="Halo mod for Squad"
           gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2898567190"
           liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2898567190"
-          listItems={["Unreal Engine 4.27", "Blueprint"]} 
+          listItems={["Unreal Engine 5", "Blueprint"]} 
         />
 
         <ProjectCard 
@@ -35,7 +35,7 @@ const SmallProjects = () => {
           description="Competitive mod for Squad"
           gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2799485908"
           liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2799485908"
-          listItems={["Unreal Engine 4.27", "Blueprint"]} 
+          listItems={["Unreal Engine 5", "Blueprint"]} 
         />
         
         <ProjectCard 
@@ -43,7 +43,7 @@ const SmallProjects = () => {
           description="Operation Metro mod map for Squad "
           gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2804581293"
           liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2804581293"
-          listItems={["Unreal Engine 4.27", "Mapping"]} 
+          listItems={["Unreal Engine 5", "Mapping"]} 
         />
 
         <ProjectCard 
@@ -51,7 +51,7 @@ const SmallProjects = () => {
           description="Finland and Isralie Defense Force mod for Squad"
           gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2887375418"
           liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2887375418"
-          listItems={["Unreal Engine 4.27", "Blueprint"]} 
+          listItems={["Unreal Engine 5", "Blueprint"]} 
         />
 
         
@@ -73,7 +73,7 @@ const SmallProjects = () => {
               description="Competitive mod for Squad"
               gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2964661588"
               liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2964661588"
-              listItems={["Unreal Engine 4.27", "Blueprint"]} 
+              listItems={["Unreal Engine 5", "Blueprint"]} 
               />
             </motion.div>
     
@@ -89,7 +89,7 @@ const SmallProjects = () => {
               description="Isralie Defense Force faction mod for Squad"
               gitLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2965087392"
               liveLink="https://steamcommunity.com/sharedfiles/filedetails/?id=2965087392"
-              listItems={["Unreal Engine 4.27", "Blueprint"]} 
+              listItems={["Unreal Engine 5", "Blueprint"]} 
             />
             </motion.div>
 
