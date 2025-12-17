@@ -8,14 +8,14 @@ const Banner = () => {
 
   const options: Options = {
     strings: [
-      'Full-Stack Developer',
-      'Quality Engineer',
-      'Python Enthusiast',
-      'Next.js Developer',
-      'Web Developer',
-      'Unreal Game Designer',
-      'Future Senior Dev',
-      'Aspiring VR Engineer',
+      'Multidisciplinary Engineer',
+      'XR Software Engineer',
+      'Unreal Engine Specialist',
+      'Automation Engineer',
+      'Gameplay & Systems Designer',
+      'Interactive Systems Architect',
+      'Engineering Real-World Solutions',
+      'Bridging Physical and Digital Systems',
     ],
     autoStart: true,
     loop: true,

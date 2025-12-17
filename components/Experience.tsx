@@ -101,7 +101,7 @@ const Experience = () => {
                     } border-l-2 border-l-textViolet text-textDark bg-transparent hover:bg-[#0F4C75] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
                     Zero Hour Interactive
-                    <br /><em>(Consultant)</em>  
+                    <br /><em>(Contractor)</em>  
                 </li>
 
                 {/* StartUp */}
@@ -113,7 +113,7 @@ const Experience = () => {
                         : "border-l-hoverColor : text-textDark"
                     } border-l-2 border-l-textViolet text-textDark bg-transparent hover:bg-[#0F4C75] py-3 text-xs cursor-pointer duration-300 px-8 font-medium md:text-sm `}
                     >
-                    Impact Studios
+                    Impact Studios & Impact Forge
                     <br /><em>(Start-up)</em>  
                 </li>
             </ul>

@@ -15,7 +15,7 @@ const TeamLead = () => {
       {/* JOB TITLE & COMPANY */}
       <div className='flex flex-wrap gap-1 font-medium text-xl font-titleFont flex-col sml:flex-row'>
         <h3>
-          HTM Engineering Technician II - Mayo Clinic
+          HTM Engineering Technician III - Mayo Clinic
         </h3>
         <span className='text-sm mt-1 font-medium text-textViolet flex'>
           @ Engineering Technician
@@ -28,8 +28,7 @@ const TeamLead = () => {
 
       {/* INTRODUCTION */}
       <p className='mt-3 text-base font-light flex gap-2 text-textDark'><strong>
-        Promoted to a taem lead position, along with and ontop of my QA/QE responsibilities.  My role involved actively supporting managers and overseeing the operations of multiple teams. 
-        <br/>
+        Serve as a technical resource for maintaining industrial 3D printers, ensuring maximum uptime for manufacturing anatomical models.        <br/>
       </strong></p>
 
       {/* Bullet Points */}

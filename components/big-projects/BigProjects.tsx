@@ -35,13 +35,13 @@ const BigProjects: React.FC = () => {
   }
   //-------------------------------------------------------------
   const imageProps3 = {
-    src: "/assets/images/ProjectPictures/Zamboni.jpg",
+    src: "/assets/images/ProjectPictures/Zamboni.png",
     alt: "Zamboni Fight Simulator Project Image",
     width: 500,
     height: 300,
   };
   const imageUrl3 =
-    "/assets/images/ProjectPictures/Smallened/Zamboni.jpg";
+    "/assets/images/ProjectPictures/Smallened/Zamboni.png";
 
   {
     /* PROJECT 5 */

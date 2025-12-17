@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import SectionTitle from './SectionTitle';
-import { profileImgCircle , CSS, HTML, ReactL, Next, UnrealEngine, NodeJS, TypeScript, Python, CPP, Java} from "@/public/assets";
+import { profileImgCircle , CSS, HTML, Unity, Next, UnrealEngine, NodeJS, TypeScript, Python, CPP, Java} from "@/public/assets";
 
 const About = () => {
   return (
@@ -51,7 +51,7 @@ const About = () => {
                     <p>
                         Hello, I&apos;m Andrew Duit, a <span className='text-textViolet'>passionate full stack developer</span> with a strong background in front-end and back-end development. 
                         <br /> <br />
-                        I specialize in crafting experiences and realities using Unreal Engine. My journey into game development began as a consultant creating mods, and I&apos;ve since worked as a Game Designer and Programmer for an indie studio using Unreal Engine 5. 
+                        I specialize in crafting experiences and realities using Unreal Engine. My journey into game development began as a contractor creating mods, and I&apos;ve since worked as a Game Designer and Programmer for an indie studio using Unreal Engine 5. 
                         <br /> <br />
                         With my technical skills, creativity, and attention to detail, I aim to deliver innovative solutions that exceed client expectations. 
                         <br /> <br />
@@ -136,12 +136,12 @@ const About = () => {
 
                 </ul>
                 <ul className='flex flex-row flex-wrap gap-4 ml-3 mt-5 justify-center'>
-                    {/* React Logo */}
+                    {/* Unity Logo */}
                     <li className='flex items-center gap-2 hover:-translate-y-2 transition-all duration-300'>
                         <Image 
                             className='rounded-full w-11 max-sml:w-6 hover:contrast-150 hover:animate-pulse'
-                            src={ReactL} alt="React"
-                            title='React' 
+                            src={Unity} alt="Unity"
+                            title='Unity' 
                         />
                     </li>
                     {/* Next */}
