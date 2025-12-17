@@ -19,4 +19,4 @@ import CPP from "./images/Skills/cpp.png"
 import Java from "./images/Skills/Java.png"
 import Unity from "./images/Skills/U_Cube.png"
 
-export { CSS, HTML, ReactL, Next, NodeJS, UnrealEngine, Java, CPP, TypeScript, Python, logo, profileImg, profileImgCircle, FaceDetection, Ecommerce, MissionControl, SpotifyClone };
+export { CSS, HTML, Unity, Next, NodeJS, UnrealEngine, Java, CPP, TypeScript, Python, logo, profileImg, profileImgCircle, FaceDetection, Ecommerce, MissionControl, SpotifyClone };
