@@ -48,7 +48,7 @@ const BigProjects: React.FC = () => {
   }
   //-------------------------------------------------------------
   const imageProps5 = {
-    src: "/assets/images/ProjectPictures/coming-soon.jpg",
+    src: "/assets/images/ProjectPictures/coming-soon.png",
     alt: "Image-Description",
     width: 500,
     height: 300,
@@ -102,7 +102,7 @@ const BigProjects: React.FC = () => {
 
         {/* PROJECT 3 */}
         <BigProjectCard
-          image={imageProps5}
+          image={imageProps3}
           imageUrl={imageUrl3}
           title="Zamboni Fight Simulator VR"
           description="Dive into the ice-cold action with 'Zamboni Fight Simulator VR'! Strap on your virtual reality headset and team up in thrilling 2v2 battles where you'll race against the clock to knock your opponents off the ice or be the fastest to resurface the rink. Can you outmaneuver and out-resurface your rivals in this high-energy, multiplayer VR showdown?"
